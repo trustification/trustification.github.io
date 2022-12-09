@@ -4,6 +4,8 @@ date: 2022-12-09
 author: Kevin Conner
 ---
 
+The CycloneDX Maven Plugin can be used to generate CycloneDX Software Bill of Materials (SBOM) for your maven projects as part of your build process.  The plugin is easy to integrate, however does have some issues due mostly to idiosyncrasies and shortcomings with the maven resolution mechanism.  In this post I attempt to provide some background, examples and explanations for the issues I've discovered as well as context for the solutions I'm proposing.
+
 # Part One - In the Beginning
 
 Three weeks ago I started an adventure with the [CycloneDX Maven Plugin](https://github.com/CycloneDX/cyclonedx-maven-plugin "The CycloneDX Maven Plugin GitHub repository"), investigating how we could make use of this plugin to generate Software Bill of Materials (SBOMs) for the [Quarkus](https://github.com/quarkusio/quarkus "The Quarkus GitHub repository") project.  At first this goal appeared easy to achieve, simply enable the plugin for all projects within the **Quarkus** build (hello parent pom.xml) and verify the generated *bom* contents were accurate.
