@@ -1,0 +1,21 @@
+name: Algolia indexation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs: {}
+
+jobs:
+  create-index:
+    name: Create index
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Credentials
+        run: |
+          export ALGOLIA_API_KEY=${{ secrets.ALGOLIA_API_KEY }}
+          echo "API_KEY=${ALGOLIA_API_KEY}" >> .env
+      - name: Indexation
+        run: |
+          docker run -it --env-file=.env -e "CONFIG=$(cat ./config.json | jq -r tostring)" algolia/docsearch-scraper
