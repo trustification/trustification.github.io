@@ -1,7 +1,7 @@
 ---
 title: "Sigstore bundle format"
 authors: danbev
-tags: []
+tags: [sigstore]
 ---
 
 This post takes a look at Sigstore's bundle format which is the format of

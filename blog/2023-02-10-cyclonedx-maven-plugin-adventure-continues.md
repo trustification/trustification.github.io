@@ -1,7 +1,7 @@
 ---
 title: "Continuing the Adventure with the CycloneDX Maven Plugin"
 authors: ctron
-tags: []
+tags: [cyclonedx]
 ---
 
 My investigation into the [CycloneDX Maven Plugin](https://github.com/CycloneDX/cyclonedx-maven-plugin "The CycloneDX Maven Plugin GitHub repository") began back in November/December 2022 with the intent of integrating the plugin into the [Quarkus](https://github.com/quarkusio/quarkus "The Quarkus GitHub repository") build process to generate Software Bill of Materials (SBOMs) for the project. I quickly discovered issues in the plugin and raised these with the maintainer early in December, writing a blog post ([An Adventure with the CycloneDX Maven Plugin](/blog/2022/12/09/cyclonedx-maven-plugin-adventure)) to help clarify each issue. I finally opened a pull request in early January to move the conversation forward and this is where our story continues .....
