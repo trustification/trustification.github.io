@@ -1,7 +1,7 @@
 ---
 title: "Sigstore, in-toto, OPA, orientation"
 authors: danbev
-tags: []
+tags: [sigstore]
 ---
 
 As someone who was completly new to secure supply chain security (sscs) there

@@ -1,7 +1,7 @@
 ---
 title: How to Configure a Gitsign Cache
 authors: danbev
-tags: []
+tags: [sigstore]
 ---
 
 This post contains the steps for setting up

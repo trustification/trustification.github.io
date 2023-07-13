@@ -1,7 +1,7 @@
 ---
 title: "Keyless Git Signing with Sigstore"
 authors: danbev
-tags: []
+tags: [sigstore]
 ---
 
 This post contains the steps for setting up
