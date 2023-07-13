@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrustification_io=self.webpackChunktrustification_io||[]).push([[4515],{2437:s=>{s.exports=JSON.parse('{"label":"sigstore","permalink":"/blog/tags/sigstore","allTagsPath":"/blog/tags","count":4}')}}]);

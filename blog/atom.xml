@@ -18,6 +18,7 @@
             <name>Kevin Conner</name>
             <uri>https://github.com/kevinconner</uri>
         </author>
+        <category label="cyclonedx" term="cyclonedx"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[in-toto attestations]]></title>
@@ -163,6 +164,7 @@ user experience, and help with adoption.</p><p>And, having a policy engine like 
             <name>Jens Reimann</name>
             <uri>https://github.com/ctron</uri>
         </author>
+        <category label="cyclonedx" term="cyclonedx"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[The Update Framework (TUF)]]></title>
@@ -387,6 +389,7 @@ example of how one can inspect the fields.</p>]]></content>
             <name>Daniel Bevenius</name>
             <uri>https://github.com/danbev</uri>
         </author>
+        <category label="sigstore" term="sigstore"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Sigstore, in-toto, OPA, orientation]]></title>
@@ -444,6 +447,7 @@ be used, and how they complement each other.</p>]]></content>
             <name>Daniel Bevenius</name>
             <uri>https://github.com/danbev</uri>
         </author>
+        <category label="sigstore" term="sigstore"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[An Adventure with the CycloneDX Maven Plugin]]></title>
@@ -456,6 +460,7 @@ be used, and how they complement each other.</p>]]></content>
             <name>Kevin Conner</name>
             <uri>https://github.com/kevinconner</uri>
         </author>
+        <category label="cyclonedx" term="cyclonedx"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[How to Configure a Gitsign Cache]]></title>
@@ -474,6 +479,7 @@ stored. Subsequent commits will then be made without a browser "popup".</p>]]></
             <name>Daniel Bevenius</name>
             <uri>https://github.com/danbev</uri>
         </author>
+        <category label="sigstore" term="sigstore"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Keyless Git Signing with Sigstore]]></title>
@@ -492,6 +498,7 @@ the certificate was valid at the time this commit was signed.</p><p>To avoid hav
             <name>Daniel Bevenius</name>
             <uri>https://github.com/danbev</uri>
         </author>
+        <category label="sigstore" term="sigstore"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
