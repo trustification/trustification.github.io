@@ -1,7 +1,7 @@
 ---
 title: "The CycloneDX Maven Aggregate SBOM and why you shouldn't trust it (yet)"
 authors: kevinconner
-tags: []
+tags: [cyclonedx]
 ---
 
 Over the last few months I've spent a lot of time with the [CycloneDX Maven Plugin](https://github.com/CycloneDX/cyclonedx-maven-plugin "The CycloneDX Maven Plugin GitHub repository"), trying to prove it is suitable for us to use as part of securing the Software Supply Chain. I've discovered and fixed a number of issues, related to the generation of an SBOM for each project using the `makeBom` goal, and have now turned my focus to aggregates and the `makeAggregateBom` goal.

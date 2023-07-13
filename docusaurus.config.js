@@ -68,7 +68,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/logo.svg",
       navbar: {
         title: "Trustification",
         logo: {
@@ -135,6 +135,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      metadata: [{ name: "keywords", content: "supply chain, sbom, vex" }],
     }),
 
   stylesheets: [
