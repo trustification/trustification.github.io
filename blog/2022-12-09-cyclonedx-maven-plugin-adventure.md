@@ -1,7 +1,7 @@
 ---
 title: "An Adventure with the CycloneDX Maven Plugin"
 authors: kevinconner
-tags: []
+tags: [cyclonedx]
 ---
 
 The CycloneDX Maven Plugin can be used to generate CycloneDX Software Bill of Materials (SBOM) for your maven projects as part of your build process. The plugin is easy to integrate, however does have some issues due mostly to idiosyncrasies and shortcomings with the maven resolution mechanism. In this post I attempt to provide some background, examples and explanations for the issues I've discovered as well as context for the solutions I'm proposing.
