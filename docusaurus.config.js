@@ -82,6 +82,11 @@ const config = {
           //   position: "left",
           //   label: "Tutorial",
           // },
+          {
+            href: "https://docs.trustification.dev/",
+            label: "Documentation",
+            position: "left",
+          },
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/trustification",
@@ -100,6 +105,10 @@ const config = {
               //   label: "Documentation",
               //   to: "/docs/intro",
               // },
+              {
+                label: "Documentation",
+                href: "https://docs.trustification.dev/",
+              },
               {
                 label: "Blog",
                 to: "/blog",
