@@ -1,6 +1,6 @@
 ---
 title: "Continuing the Adventure with the CycloneDX Maven Plugin"
-authors: ctron
+authors: kevinconner
 tags: [cyclonedx]
 ---
 
