@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrustification_io=self.webpackChunktrustification_io||[]).push([[1713],{3457:e=>{e.exports=JSON.parse('[{"label":"cyclonedx","permalink":"/blog/tags/cyclonedx","count":3},{"label":"sigstore","permalink":"/blog/tags/sigstore","count":4}]')}}]);
