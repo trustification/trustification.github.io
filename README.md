@@ -28,3 +28,5 @@ This command generates static content into the `build` directory and can be serv
 
 - Add a markdown file beneath `blog` folder named according to this format: `2022-10-20-some-name.md`
 - Commit your changes
+
+test
