@@ -38,8 +38,8 @@ Download that archive, extract it, and run the binary inside it. That's it!
 
 ## Now what?
 
-Take your favorite web browser and navigate to: <http://localhost:8080>. That will automatically log you in with a
-demo user, and show you the user interface.
+Take your favorite web browser and navigate to: [http://localhost:8080](http://localhost:8080). That will automatically
+log you in with a demo user, and show you the user interface.
 
 You might notice that the system looks quite empty. That is because we did not connect any datasource yet. Navigate
 to the "Importer" section and enable the following pre-configured importers:
