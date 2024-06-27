@@ -2,11 +2,66 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://trustification.io/blog</id>
     <title>Trustification Blog</title>
-    <updated>2023-03-20T00:00:00.000Z</updated>
+    <updated>2024-06-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://trustification.io/blog"/>
     <subtitle>Trustification Blog</subtitle>
     <icon>https://trustification.io/img/logo.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Trying out Trustify, on a local machine]]></title>
+        <id>https://trustification.io/blog/2024/06/27/trying-out-trustify</id>
+        <link href="https://trustification.io/blog/2024/06/27/trying-out-trustify"/>
+        <updated>2024-06-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Trustify is a project for working with software supply chain information,]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://github.com/trustification/trustify" target="_blank" rel="noopener noreferrer">Trustify</a> is a project for working with software supply chain information,
+like SBOMs and advisories. Connect a few data sources with the system, and gather some insight in what you have.</p>
+<p>Although Trustify is in its pretty early stages, it might be interesting to try it out and play a bit with it, do see
+where this is heading. Read on to see how you can easily do that.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-expect">What to expect?<a class="hash-link" aria-label="Direct link to What to expect?" title="Direct link to What to expect?" href="https://trustification.io/blog/2024/06/27/trying-out-trustify#what-to-expect">​</a></h2>
+<p>First of all, we really want to emphasize that the project is pretty young. There are a lot of areas where work is
+underway. However, in the sprit of "release early, release often", we try to release a version every week. In a
+form that you can simply download and run it right away.</p>
+<p>That, of course, is not the ideal deployment scenario. But it should enable you to get started within minutes and
+see what's in the box.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-do-you-need">What do you need?<a class="hash-link" aria-label="Direct link to What do you need?" title="Direct link to What do you need?" href="https://trustification.io/blog/2024/06/27/trying-out-trustify#what-do-you-need">​</a></h2>
+<p>A computer (doesn't work on phones, sorry), internet access (we don't ship on floppies), and the ability to run some
+code on your machine (yes, corporate IT rules might be an issue).</p>
+<p>Linux, macOS, Windows. AMD or ARM. Doesn't make a difference.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="everything-everywhere-all-at-once">Everything, Everywhere, All at once<a class="hash-link" aria-label="Direct link to Everything, Everywhere, All at once" title="Direct link to Everything, Everywhere, All at once" href="https://trustification.io/blog/2024/06/27/trying-out-trustify#everything-everywhere-all-at-once">​</a></h2>
+<p>Head over to the <a href="https://github.com/trustification/trustify/releases" target="_blank" rel="noopener noreferrer">release page</a>, and pick a binary for your OS and
+architecture with the name starting with <code>trustd-pm</code>. That's a binary which includes just everything: the application
+itself, the UI, the database, and an embedded OIDC server.</p>
+<p>Download that archive, extract it, and run the binary inside it. That's it!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="now-what">Now what?<a class="hash-link" aria-label="Direct link to Now what?" title="Direct link to Now what?" href="https://trustification.io/blog/2024/06/27/trying-out-trustify#now-what">​</a></h2>
+<p>Take your favorite web browser and navigate to: <a href="http://localhost:8080/" target="_blank" rel="noopener noreferrer">http://localhost:8080</a>. That will automatically
+log you in with a demo user, and show you the user interface.</p>
+<p>You might notice that the system looks quite empty. That is because we did not connect any datasource yet. Navigate
+to the "Importer" section and enable the following pre-configured importers:</p>
+<ul>
+<li><code>cve-from-2024</code></li>
+<li><code>redhat-csaf-vex-2024</code></li>
+<li><code>redhat-sbom</code></li>
+</ul>
+<p>After that, you might want to take a break. Ingesting those sources for the first time might take a bit. Future runs,
+however, will be much faster, as only the diff will be processed.</p>
+<p>Maybe click a bit around in the UI to get an idea. Again, don't expect too much yet. It's'a work in progress.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="so">So?<a class="hash-link" aria-label="Direct link to So?" title="Direct link to So?" href="https://trustification.io/blog/2024/06/27/trying-out-trustify#so">​</a></h2>
+<p>Being a work in progress also has its advantages. If you managed to get the system up and running in a few minutes,
+you might want to reach out and check what we're up to. Or you might have some ideas yourself, or questions. Or, in
+case you had not been able to start up the demo, we would kindly as to reach out to use and let us know.</p>
+<p>Everything is on GitHub: <a href="https://github.com/trustification/trustify" target="_blank" rel="noopener noreferrer">https://github.com/trustification/trustify</a>.
+If you have some feedback or run into problems, just raise an issue. If you have some ideas, please let us know as well.
+And of course, PRs are also always welcome.</p>
+<p>If you're looking for a direct chat, you're also welcome to join our Matrix channel: <a href="https://matrix.to/#/#trustification:matrix.org" target="_blank" rel="noopener noreferrer">#trustification<!-- -->:matrix<!-- -->.org</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's next?<a class="hash-link" aria-label="Direct link to What's next?" title="Direct link to What's next?" href="https://trustification.io/blog/2024/06/27/trying-out-trustify#whats-next">​</a></h2>
+<p>Our goal is to push out a new pre-release every week around Thursday. So maybe come back in a bit and check out the
+improvements.</p>]]></content>
+        <author>
+            <name>Jens Reimann</name>
+            <uri>https://github.com/ctron</uri>
+        </author>
+        <category label="trustify" term="trustify"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The CycloneDX Maven Aggregate SBOM and why you shouldn't trust it (yet)]]></title>
         <id>https://trustification.io/blog/2023/03/20/cyclonedx-maven-aggregate-bom-why-not-to-trust</id>
