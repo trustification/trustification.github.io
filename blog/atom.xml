@@ -2,11 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://trustification.io/blog</id>
     <title>Trustification Blog</title>
-    <updated>2024-06-27T00:00:00.000Z</updated>
+    <updated>2024-07-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://trustification.io/blog"/>
     <subtitle>Trustification Blog</subtitle>
     <icon>https://trustification.io/img/logo.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Trustify: Release 0.1.0-alpha.10]]></title>
+        <id>https://trustification.io/blog/2024/07/04/release-0-1-0-alpha-10</id>
+        <link href="https://trustification.io/blog/2024/07/04/release-0-1-0-alpha-10"/>
+        <updated>2024-07-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we released Trustify 0.1.0-alpha.10. It's another alpha release as part of our weekly release cadence.]]></summary>
+        <content type="html"><![CDATA[<p>Today we released Trustify <code>0.1.0-alpha.10</code>. It's another alpha release as part of our weekly release cadence.
+Read on to learn what's new.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-and-noteworthy">New and noteworthy<a class="hash-link" aria-label="Direct link to New and noteworthy" title="Direct link to New and noteworthy" href="https://trustification.io/blog/2024/07/04/release-0-1-0-alpha-10#new-and-noteworthy">​</a></h2>
+<ul>
+<li>
+<p>There are more labels that get applied during the upload process. It also is possible to automatically add labels
+using the importer configuration.</p>
+</li>
+<li>
+<p>The system will now also record the SHA384 and SHA512 digests of uploaded documents.</p>
+</li>
+<li>
+<p>The package API endpoint and corresponding UI have been renamed to "PURL".</p>
+<p>The reason for that is pretty simple, the discussion was not. Right now, these "packages" actually had been "PURLs",
+and not much more. That led to confusion about what arguments to pass in, and what information to expect back.</p>
+<p>For the future, we still want to collect information about packages, outside the context of an SBOM. However today,
+that model didn't work well.</p>
+</li>
+<li>
+<p>In addition to titles, also descriptions will be returned now for advisories. As many advisories don't have a title,
+this allows the UI to render a title, based on those descriptions instead.</p>
+</li>
+<li>
+<p>Allow setting labels during the upload of a document.</p>
+</li>
+<li>
+<p>There are some incompatible changes to the database migration. While our goal is to provide migrations as good as
+possible, this change was simply too big. So, as we are still in an alpha cycle, the decision was made to simply
+update the schema in a breaking way.</p>
+</li>
+<li>
+<p>The UI can show the relationship between package and vulnerabilities for each entity</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's next?<a class="hash-link" aria-label="Direct link to What's next?" title="Direct link to What's next?" href="https://trustification.io/blog/2024/07/04/release-0-1-0-alpha-10#whats-next">​</a></h2>
+<p>Of course, we would recommend you try out the new version! In "<a href="https://trustification.io/blog/2024/06/27/trying-out-trustify">Trying out Trustify, on a local machine</a>", we introduced a quick and easy way to get there within minutes.</p>
+<p>And of course:</p>
+<ul>
+<li>Check out the <a href="https://github.com/trustification/trustify/releases/tag/v0.1.0-alpha.10" target="_blank" rel="noopener noreferrer">release 0.1.0-alpha.10</a>.</li>
+<li>Reach out to <a href="https://matrix.to/#/#trustification:matrix.org" target="_blank" rel="noopener noreferrer">us on Matrix</a>, and let us know what you think.</li>
+</ul>]]></content>
+        <author>
+            <name>Jens Reimann</name>
+            <uri>https://github.com/ctron</uri>
+        </author>
+        <category label="trustify" term="trustify"/>
+        <category label="release" term="release"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trying out Trustify, on a local machine]]></title>
         <id>https://trustification.io/blog/2024/06/27/trying-out-trustify</id>
