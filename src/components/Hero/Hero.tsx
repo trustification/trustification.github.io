@@ -27,7 +27,7 @@ export const Hero = () => {
                 Give it a try
               </a>
               <a
-                href="https://app.element.io/?updated=1.11.32#/room/#trustification:matrix.org"
+                href="https://matrix.to/#/#trustification:matrix.org"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 text-lg font-medium text-center text-gray-900  inline-flex border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 border-solid"

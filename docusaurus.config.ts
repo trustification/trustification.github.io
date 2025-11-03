@@ -123,7 +123,7 @@ const config: Config = {
           items: [
             {
               label: "Matrix",
-              href: "https://app.element.io/?updated=1.11.32#/room/#trustification:matrix.org",
+              href: "https://matrix.to/#/#trustification:matrix.org",
             },
           ],
         },
